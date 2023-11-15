@@ -10,5 +10,9 @@ void main(){
 
   List<int> myList = [15, 20, 25, 30, 35];
 
+  int element = myList[2];
+
+  print('Element at index 2: $element');
+
 }
 

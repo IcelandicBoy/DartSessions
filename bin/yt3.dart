@@ -27,6 +27,10 @@ void main(){
     [3, 6, 9, 12, 15],
     [4, 8, 12, 16, 20]
   ];
+    List<int> middleList = myList[1];
+    print('Middle List: $middleList');
 
+    int middleNumber = middleList[middleList.length ~/ 2];
+    print('Middle Number from Middle List: $middleNumber');
 
 }

@@ -26,5 +26,12 @@
 void main(){
 
   List<int> myList = [15, 20, 25, 30, 35];
-
+  print('Using a for loop:');
+  for (int idx = 0; idx < myList.length; idx++) {
+    print(myList[idx]);
+  }
+  print('\nUsing a for-in loop:');
+  for (int num in myList) {
+    print(num);
+  }
 }

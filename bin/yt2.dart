@@ -24,4 +24,8 @@ void main(){
     [4, 8, 12, 16, 20]
   ];
 
+  List<int> middleList = myList[1];
+
+  print('Middle List: $middleList');
+
 }

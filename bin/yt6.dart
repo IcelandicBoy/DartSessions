@@ -23,5 +23,11 @@ void main(){
     [4, 8, 12, 16, 20]
   ];
 
+  for (List<int> innerList in myList) {
+    int middleIndext = innerList.length ~/ 2;
 
+    print(innerList[middleIndext]);
+
+    print('----');
+  }
 }

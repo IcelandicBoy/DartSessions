@@ -42,6 +42,12 @@ void main(){
     [ 8, 6, 4, 2 ],
     [ 7, 5, 3, 1 ]
   ];
+  for(List<int> innerList in myList) {
 
 
+  for (int num in innerList) {
+    print(num);
+    }
+  print('-----');
+  }
 }
